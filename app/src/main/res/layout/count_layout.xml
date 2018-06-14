@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/count">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-12dp"
+            android:fontFamily="@font/billabong"
+            android:gravity="center"
+            android:text="Only"
+            android:textColor="#fff"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/cl_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/billabong"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="#b0e62f"
+            android:textSize="52sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-32dp"
+            android:fontFamily="@font/billabong"
+            android:gravity="center"
+            android:text="to go"
+            android:textColor="#fff"
+            android:textSize="42sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="#00ffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/satisfy_regular"
+            android:gravity="center"
+            android:text="Hasta-La-Vista"
+            android:textColor="@color/colorAccent"
+            android:textSize="42sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/billabong"
+            android:gravity="center"
+            android:text="5 May 2018"
+            android:textColor="#fff"
+            android:textSize="42sp" />
+
+        <Button
+            android:id="@+id/cl_ok"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/layoutDots_walkThrough"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_ripple_effect"
+            android:fontFamily="@font/josefinsans_bold"
+            android:foreground="@drawable/button_border"
+            android:text=": )"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

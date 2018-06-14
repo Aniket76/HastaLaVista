@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "167747864960",
+    "firebase_url": "https://hastalavista-5f171.firebaseio.com",
+    "project_id": "hastalavista-5f171",
+    "storage_bucket": "hastalavista-5f171.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167747864960:android:95d31c1c947354f5",
+        "android_client_info": {
+          "package_name": "com.aniketvishal.hastalavista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167747864960-95nvahdud0c710tibdon3bkfg7n6ed8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniketvishal.hastalavista",
+            "certificate_hash": "92e18bb8c12622dc7254796f6e925203cf316bc5"
+          }
+        },
+        {
+          "client_id": "167747864960-9d36c6n664jhsgjenpfv283cnuldnbnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANWYB5HHIw7WfqLVM76aFaw-etwyKjPhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167747864960-9d36c6n664jhsgjenpfv283cnuldnbnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
